@@ -26,8 +26,3 @@ rule m006_performance_plots:
         "results/study_006/210712/04_calibration.pdf"
     resources: vmem=1024*5, tmin=60
     script: "../scripts/evaluation/210712_performance-measures.R"
-
-rule m006_shap_plots:
-    input: "logs/shap/s{sid}-{tp}.log"
-    resources: vmem=1024*5, tmin=60
-    script: "../scripts/evaluation/210809_m006-shap-plots.R"
