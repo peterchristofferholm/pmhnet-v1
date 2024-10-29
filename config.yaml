@@ -1,0 +1,6 @@
+dbhost: "dbhost"
+dbuser: "dbuser"
+dbname: "dbname"
+dbschema_pmhnet: "pmhnet"
+dbschema_optuna: "pmhnet_optuna"
+protected: []
