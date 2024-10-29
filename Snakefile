@@ -1,4 +1,4 @@
-stdies = glob_wildcards("scripts/studies/study_{sid}.py").sid
+studies = glob_wildcards("scripts/studies/study_{sid}.py").sid
 
 workflowsingularity_args = "-B $HOME/.odbc.ini:/etc/odbc.ini"
 
